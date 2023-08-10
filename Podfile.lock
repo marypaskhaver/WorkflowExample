@@ -1,0 +1,29 @@
+PODS:
+  - ReactiveSwift (7.1.1)
+  - ViewEnvironment (2.5.0)
+  - Workflow (2.5.0):
+    - ReactiveSwift (~> 7.1.1)
+  - WorkflowUI (2.5.0):
+    - ViewEnvironment (= 2.5.0)
+    - Workflow (= 2.5.0)
+
+DEPENDENCIES:
+  - Workflow
+  - WorkflowUI
+
+SPEC REPOS:
+  trunk:
+    - ReactiveSwift
+    - ViewEnvironment
+    - Workflow
+    - WorkflowUI
+
+SPEC CHECKSUMS:
+  ReactiveSwift: 477d3f5bc2eb3cbbba1c1636505752b83bef93b1
+  ViewEnvironment: 1e181ae5e957b380ab3ed687984c85a49c0997b5
+  Workflow: 918617daa007621d64a7f0a2804ba6dad1b6dd60
+  WorkflowUI: bb5d08508a7959e2879be17a47d40d2cc9c94b7f
+
+PODFILE CHECKSUM: 616f2c4b4b4745a7dc478ebdb6f9197844e10dc3
+
+COCOAPODS: 1.12.1
